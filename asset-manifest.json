@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aleksandrelashauri/JetRockets/static/css/main.40df3699.css",
-    "main.js": "/aleksandrelashauri/JetRockets/static/js/main.55a00438.js",
+    "main.js": "/aleksandrelashauri/JetRockets/static/js/main.90d0920a.js",
     "static/media/mobile.png": "/aleksandrelashauri/JetRockets/static/media/mobile.0653f0223a3994b121a0.png",
     "index.html": "/aleksandrelashauri/JetRockets/index.html",
     "main.40df3699.css.map": "/aleksandrelashauri/JetRockets/static/css/main.40df3699.css.map",
-    "main.55a00438.js.map": "/aleksandrelashauri/JetRockets/static/js/main.55a00438.js.map"
+    "main.90d0920a.js.map": "/aleksandrelashauri/JetRockets/static/js/main.90d0920a.js.map"
   },
   "entrypoints": [
     "static/css/main.40df3699.css",
-    "static/js/main.55a00438.js"
+    "static/js/main.90d0920a.js"
   ]
 }
