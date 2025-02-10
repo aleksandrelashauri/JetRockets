@@ -6,7 +6,7 @@ import { CssBaseline, Box, } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import Grid from '@mui/material/Grid2';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import { Terms } from './components/Terms.tsx';
 import MobileContainer from './components/MobileContainer/MobileContainer.tsx';
@@ -19,7 +19,7 @@ import { Dashboard } from './components/Dashboard.tsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AccountProvider>
         <ThemeProvider theme={theme}>
           <CssBaseline />
@@ -56,7 +56,7 @@ function App() {
           </Routes>
         </ThemeProvider>
       </AccountProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
