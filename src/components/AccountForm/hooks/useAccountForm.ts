@@ -19,7 +19,6 @@ export const useAccountForm = () => {
     });
     const [errors, setErrors] = useState<FormErrors>({});
 
-
     const validateEmailOrPhone = (value: string) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         const phoneRegex = /^\+?[\d\s-]{10,}$/;
@@ -52,7 +51,6 @@ export const useAccountForm = () => {
         } catch (error) {
             toast.error('An unexpected error occurred');
             setErrors(prevErrors => ({
-
                 ...prevErrors,
                 serverError: 'An unexpected error occurred'
             }));

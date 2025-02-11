@@ -15,7 +15,7 @@ import { AccountProvider } from './context/Accountcontext.tsx';
 import { PrivicyPolicy } from './components/PrivicyPolicy.tsx';
 import { LogInForm } from './components/LogInForm/index.ts';
 import { Dashboard } from './components/Dashboard.tsx';
-
+import { ForgotPassword } from './components/ForgotPassword.tsx';
 
 function App() {
   return (
@@ -46,6 +46,19 @@ function App() {
                     </Grid>
                     <Grid size={{ xs: 7, md: 7, lg: 7 }}>
                       <LogInForm />
+                    </Grid>
+                  </Grid>
+                </Box>
+              } />
+            <Route path="/forgotPassword"
+              element={
+                <Box sx={{ flexGrow: 1 }}>
+                  <Grid container spacing={0}>
+                    <Grid size={{ xs: 5, md: 5, lg: 5 }}>
+                      <MobileContainer />
+                    </Grid>
+                    <Grid size={{ xs: 7, md: 7, lg: 7 }}>
+                      <ForgotPassword />
                     </Grid>
                   </Grid>
                 </Box>

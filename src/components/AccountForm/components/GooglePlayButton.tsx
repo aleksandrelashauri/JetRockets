@@ -64,7 +64,7 @@ export const GooglePlayButton = () => (
                 />
             </Box>
             <Box sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'flex-start', color: 'white', lineHeight: 1  // Add this to reduce space between lines
+                display: 'flex', flexDirection: 'column', alignItems: 'flex-start', color: 'white'
             }}>
                 <Typography sx={{ fontWeight: 600, fontSize: '10px' }}>GET IT ON</Typography>
                 <Typography sx={{ fontWeight: 600, fontSize: '18px' }}>Google Play</Typography>

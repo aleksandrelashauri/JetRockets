@@ -67,7 +67,7 @@ export const FormFields = ({ formData, errors, handleChange }: FormFieldsProps) 
                         '& input': {
                             cursor: 'pointer',
                             color: formData.dateOfBirth ? 'inherit' : 'transparent',
-                            userSelect: 'none',  // Prevents text selection
+                            userSelect: 'none',
                         },
                         '& input::-webkit-calendar-picker-indicator': {
                             cursor: 'pointer',
