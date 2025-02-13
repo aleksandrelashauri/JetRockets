@@ -24,26 +24,24 @@ A modern React application for user authentication and account management with a
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/aleksandrelashauri/JetRockets.git
 cd JetRockets
-```
+
 
 
 2. Install dependencies:
 
-```bash
+bash
 npm install
-```
 
     or
 yarn instal
 
 3. Start the development server:
 
-```bash
+bash
 npm start
-```
 
 
 ## 📦 Project Structure
@@ -51,7 +49,6 @@ npm start
 The project follows a modular architecture with the following key directories:
 or
 yarn start
-
 
 The application will open in your default browser at `http://localhost:3000/JetRockets`
 
@@ -70,8 +67,6 @@ src/
 ├── theme/
 │ └── theme.ts # MUI theme customization
 └── App.tsx # Main application component
-
-
 
 ## 📱 Available Routes
 
@@ -96,10 +91,6 @@ To contribute to this project:
 1. Create a feature branch
 2. Make your changes
 3. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## 👥 Contributors
 
