@@ -25,10 +25,8 @@ A modern React application for user authentication and account management with a
 1. Clone the repository:
 
 bash
-git clone https://github.com/aleksandrelashauri/JetRockets.git
+git clone git@github.com:aleksandrelashauri/JetRockets.git
 cd JetRockets
-
-
 
 2. Install dependencies:
 
@@ -55,21 +53,34 @@ The application will open in your default browser at `http://localhost:3000/JetR
 ## 🏗️ Project Structure
 src/
 │
+
 ├── components/
+
 │ ├── AccountForm/ # Registration form components
+
 │ ├── LogInForm/ # Login form components
+
 │ ├── MobileContainer/ # Mobile-responsive container
+
 │ ├── Dashboard.tsx # Main dashboard
+
 │ ├── ForgotPassword.tsx # Password recovery
+
 │ ├── PrivicyPolicy.tsx # Privacy policy page
+
 │ └── Terms.tsx # Terms and conditions
 │
+
 ├── context/
+
 │ └── Accountcontext.tsx # Account state management
+
 │
 ├── theme/
+
 │ └── theme.ts # MUI theme customization
-│
+
+
 └── App.tsx # Main application component
 
 ## 📱 Available Routes
