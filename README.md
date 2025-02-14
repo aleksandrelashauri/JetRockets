@@ -54,6 +54,7 @@ The application will open in your default browser at `http://localhost:3000/JetR
 
 ## 🏗️ Project Structure
 src/
+│
 ├── components/
 │ ├── AccountForm/ # Registration form components
 │ ├── LogInForm/ # Login form components
@@ -62,10 +63,13 @@ src/
 │ ├── ForgotPassword.tsx # Password recovery
 │ ├── PrivicyPolicy.tsx # Privacy policy page
 │ └── Terms.tsx # Terms and conditions
+│
 ├── context/
 │ └── Accountcontext.tsx # Account state management
+│
 ├── theme/
 │ └── theme.ts # MUI theme customization
+│
 └── App.tsx # Main application component
 
 ## 📱 Available Routes
