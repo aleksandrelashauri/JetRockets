@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/JetRockets/static/css/main.40df3699.css",
-    "main.js": "/JetRockets/static/js/main.89bca27b.js",
+    "main.js": "/JetRockets/static/js/main.4d4d41f0.js",
     "static/media/mobile.png": "/JetRockets/static/media/mobile.0653f0223a3994b121a0.png",
     "index.html": "/JetRockets/index.html",
     "main.40df3699.css.map": "/JetRockets/static/css/main.40df3699.css.map",
-    "main.89bca27b.js.map": "/JetRockets/static/js/main.89bca27b.js.map"
+    "main.4d4d41f0.js.map": "/JetRockets/static/js/main.4d4d41f0.js.map"
   },
   "entrypoints": [
     "static/css/main.40df3699.css",
-    "static/js/main.89bca27b.js"
+    "static/js/main.4d4d41f0.js"
   ]
 }
