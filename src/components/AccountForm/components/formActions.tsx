@@ -11,6 +11,15 @@ interface FormActionsProps {
 
 export const FormActions = ({ formData, errors, handleChange }: FormActionsProps) => {
     const navigate = useNavigate();
+
+    const handleTermsClick = () => {
+        navigate('/PrivacyPolicy');
+    }
+
+    const handlePrivacyPolicyClick = () => {
+        navigate('/PrivacyPolicy');
+    }
+
     return (
         <>
             <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', mt: 2 }}>
@@ -45,8 +54,7 @@ export const FormActions = ({ formData, errors, handleChange }: FormActionsProps
                             I agree to the
                         </Typography>
                         <Button
-                            component="a"
-                            href="/JetRockets/terms"
+                            onClick={handleTermsClick}
                             sx={{
                                 color: '#007AFF',
                                 p: 0,
@@ -69,8 +77,7 @@ export const FormActions = ({ formData, errors, handleChange }: FormActionsProps
                             and
                         </Typography>
                         <Button
-                            component="a"
-                            href="/JetRockets/privicyPolicy"
+                            onClick={handlePrivacyPolicyClick}
                             sx={{
                                 color: '#007AFF',
                                 p: 0,

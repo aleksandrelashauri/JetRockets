@@ -12,7 +12,7 @@ import { Terms } from './components/Terms.tsx';
 import MobileContainer from './components/MobileContainer/MobileContainer.tsx';
 import { AccountForm } from './components/AccountForm/index.ts';
 import { AccountProvider } from './context/Accountcontext.tsx';
-import { PrivicyPolicy } from './components/PrivicyPolicy.tsx';
+import { PrivacyPolicy } from './components/PrivacyPolicy.tsx';
 import { LogInForm } from './components/LogInForm/index.ts';
 import { Dashboard } from './components/Dashboard.tsx';
 import { ForgotPassword } from './components/ForgotPassword.tsx';
@@ -65,7 +65,7 @@ function App() {
               } />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/terms" element={<Terms />} />
-            <Route path="/privicyPolicy" element={<PrivicyPolicy />} />
+            <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           </Routes>
         </ThemeProvider>
       </AccountProvider>

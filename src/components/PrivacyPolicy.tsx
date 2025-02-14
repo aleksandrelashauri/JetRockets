@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Box, Paper, Typography, Button, Stack } from '@mui/material';
 
-export const PrivicyPolicy: React.FC = () => {
+export const PrivacyPolicy: React.FC = () => {
     const navigate = useNavigate();
 
     const handleBack = () => {
